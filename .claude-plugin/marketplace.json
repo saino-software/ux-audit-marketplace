@@ -1,13 +1,22 @@
 {
-  "version": 1,
-  "plugins": {
-    "ux-audit": {
-      "description": "UX heuristic evaluation agent for mobile apps using Nielsen's 10 heuristics",
+  "name": "ux-audit-marketplace",
+  "owner": {
+    "name": "Saino Software"
+  },
+  "metadata": {
+    "description": "UX evaluation plugins for mobile apps",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ux-audit",
       "source": {
-        "source": "github",
-        "repo": "saino-software/ux-audit-plugin"
+        "source": "url",
+        "url": "https://github.com/saino-software/ux-audit-plugin.git"
       },
-      "categories": ["UX", "Design", "Evaluation", "Mobile"]
+      "description": "UX heuristic evaluation agent for mobile apps using Nielsen's 10 heuristics",
+      "version": "0.1.0",
+      "strict": true
     }
-  }
+  ]
 }
