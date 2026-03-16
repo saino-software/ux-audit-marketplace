@@ -5,7 +5,7 @@
       "description": "UX heuristic evaluation agent for mobile apps using Nielsen's 10 heuristics",
       "source": {
         "source": "github",
-        "repo": "ingrodelvalle/ux-audit-plugin"
+        "repo": "saino-software/ux-audit-plugin"
       },
       "categories": ["UX", "Design", "Evaluation", "Mobile"]
     }
